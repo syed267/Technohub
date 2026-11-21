@@ -581,6 +581,7 @@ img { max-width: 100%; }
 }
 .who-card h2 {
   margin-top: 10px;
+  text-algin:center;
   font-size: clamp(27px, 2vw, 41px);
   font-weight: 600;
   color: #fff;
