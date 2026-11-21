@@ -554,13 +554,17 @@ img { max-width: 100%; }
   background: #2a3a52;
   border-radius: 12px;
   padding: 24px 22px;
-  min-height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   animation: fadeUp 0.6s both;
   transition: all 0.35s cubic-bezier(0.16,1,0.3,1);
   border: 1px solid rgba(255,255,255,0.05);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  min-height: 180px;
 }
 .who-card:nth-child(1){ animation-delay: 0.2s; }
 .who-card:nth-child(2){ animation-delay: 0.3s; }
@@ -587,6 +591,8 @@ img { max-width: 100%; }
   color: #fff;
   line-height: 1;
   transition: color 0.3s ease;
+   margin: 0 auto;
+ 
 }
 .who-card:hover h2{ color: #ecdcac; }
 .who-card h2.accent { color: #ff4a2a; }
